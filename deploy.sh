@@ -25,7 +25,8 @@ export _GCP_PROJECT="<<yourprojectid>>"
 ###############################################################################
 
 # Set Default Project
-echo "Setting Default Project"
+echo "Setting Default Project for execution"
+gcloud config set project $_GCP_PROJECT
 
 # Get Default Project ID
 PROJECT_ID=$(gcloud config get-value project)

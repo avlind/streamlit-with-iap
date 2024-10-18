@@ -1,1 +1,4 @@
 .venv/
+README.md
+deploy.sh
+project_setup.sh

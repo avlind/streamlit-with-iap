@@ -1,1 +1,5 @@
 .venv/
+README.md
+deploy.sh
+cloudbuild.yaml
+project_setup.sh

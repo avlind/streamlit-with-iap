@@ -28,3 +28,8 @@ gcloud config set project <<YOUR_PROJECT_ID>>
     - https://cloud.google.com/iap/docs/enabling-cloud-run
     - https://cloud.google.com/load-balancing/docs/https/setting-up-https-serverless
     - https://cloud.google.com/load-balancing/docs/serverless-neg
+
+## Update Cloud Run w/ IAP Audience Value
+- As part of the default deployment, the script stubs in a mock value in the Cloud Run Environment Variable `_IAP_AUDIENCE` of the private Cloud Run service that is deployed. Once you have configured IAP, you will need to edit that environment variable for the Cloud Run service and replace with your JWT Audience. 
+- If you are unsure of your audience value please refer to the following link: https://cloud.google.com/iap/docs/signed-headers-howto#verifying_the_jwt_payload
+![JWT_From_GCP_Console](https://cloud.google.com/iap/images/iap-aud-overflow.png)
