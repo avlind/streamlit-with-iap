@@ -1,7 +1,7 @@
 # Streamlit behind IAP: Header Inspection Demo
 
-> **_NOTE:_** The intention of this repo is not to be deployed directly into production but to demonstrate how you can package streamlit in a container, deploy to Google Cloud Run, and securely sit it behind Google Cloud IAP.* 
-
+> **_NOTE:_** The intention of this repo is not to be deployed directly into production but to demonstrate how you can package streamlit in a container, deploy to Google Cloud Run, and securely sit it behind Google Cloud IAP.
+ 
 - A simple streamlit application, that is deployed out to Cloud Run two times, once as a public url, and the other with limited ingress to GCP Load Balancers, with the idea that it would be placed behind IAP.
 - Streamlit app displays HTTP headers and cookies, and looks for headers specifically from Google Cloud IAP.
 - Streamlit app also inspects both the plaintext headers as well as the signed jwt header. 
