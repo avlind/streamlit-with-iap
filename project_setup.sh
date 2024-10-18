@@ -19,7 +19,7 @@ the License.
 END
 
 #You must update the _GCP_PROJECT variable with your project ID before running this script.
-export _GCP_PROJECT="temp-project-439018"
+export _GCP_PROJECT="<<yourprojectid>>"
 
 gcloud services enable run.googleapis.com \
 serviceusage.googleapis.com \

@@ -3,7 +3,6 @@ import streamlit as st
 from google.auth.transport import requests
 from google.oauth2 import id_token
 
-#jwtaudience = "/projects/568491243624/global/backendServices/2885218973683909401"
 jwtaudience = os.getenv("_IAP_AUDIENCE")
 
 

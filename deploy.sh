@@ -22,7 +22,7 @@ END
 ################ EDIT THIS SECTION BEFORE RUNNING THE SCRIPT ##################
 # Globals
 
-export _GCP_PROJECT="temp-project-439018"
+export _GCP_PROJECT="<<yourprojectid>>"
 
 ###############################################################################
 
